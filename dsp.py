@@ -14,7 +14,7 @@ import thinkplot as plt
 from IPython.display import Audio
 wave=nk.read_make('C:/Users/aa/Downloads.wav')
 spectrm=wave.make_spectrum()
-spectrm.plot(high=2000)
+spectrm.plot(low=2000)
 s=Audio(data=wave.ys,rate=wave.framerate)
 s
 
