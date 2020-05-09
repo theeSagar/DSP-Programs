@@ -9,7 +9,7 @@ Original file is located at
 4. Record an audio and eliminate high frequency noises from it.
 """
 
-#import thinkdsp as nk
+import thinkdsp as nk
 import thinkplot as plt
 from IPython.display import Audio
 wave=nk.read_make('C:/Users/aa/Downloads.wav')
